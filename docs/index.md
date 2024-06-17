@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Início
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Seja bem-vindo ao livro virtual de regras para Percy Jackson RPG! Aqui, você encontrará todas as informações necessárias para criar personagens, entender as mecânicas do jogo e conduzir aventuras épicas no universo de Percy Jackson. Explore as várias seções do site para acessar detalhadamente todas as regras e orientações que você precisa para jogar e narrar suas histórias.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Aproveite e que os deuses estejam com você!

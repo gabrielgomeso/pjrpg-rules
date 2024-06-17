@@ -2,45 +2,9 @@ site_name: Percy Jackson RPG - Regras 2.0
 site_url: https://gabrielgomeso.github.io/pjrpg-rules/
 theme:
   name: material
-nav:
-  - "Início": index.md
-  - "Criação de personagem":
-    - "Introdução à criação de personagens": 01-character-creation-intro.md
-    - "Poderes e herança divina":
-      - "Introdução aos poderes divinos": powers-intro.md
-      - "Poderes de semideuses":
-        - "Afrodite": afrodite.md
-        - "Apollo": apolo.md
-        - "Ares": ares.md
-        - "Athena": athena.md
-        - "Demeter": demeter.md
-        - "Dionísio": dionisio.md
-        - "Hades": hades.md
-        - "Hefesto": hefesto.md
-        - "Hermes": hermes.md
-        - "Poseidon": poseidon.md
-        - "Thanatos": thanatos.md
-        - "Zeus": zeus.md
-      - "Poderes de criaturas":
-        - "Espíritos da Água": espiritos-da-agua.md
-        - "Minotauros": minotauros.md
-        - "Sátiros": satiros.md
-    - "Atributos": attributes.md
-    - "Pontos de heroísmo": heroic-points.md
-    - "Vantagens e desvantagens": 
-      - "Introdução às vantagens e desvantagens": intro-and.md
-      - "Vantagens": advantages.md
-      - "Desvantagens": disavantages.md
-    - "Itens, equipamentos e peso": items.md
-  - "Regras do jogo":
-    - "Ações, combate e perseguições": actions.md
-    - "Fama": fame.md
-    - "Evolução do personagem": evolution.md
-    - "Descanso e recuperação": rest.md
-    - "Locais seguros e atividades": places.md
-  - "Narrando o jogo":
-    - "Introdução a narração": intro-dming.md
-  - "Sobre":
-    - 'Origem do projeto': about/about.md
-    - 'Direitos de uso': about/rights.md
-  
+plugins:
+    - awesome-pages:
+        collapse_single_pages: true
+    - search
+
+ 
