@@ -1,0 +1,1694 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://gabrielgomeso.github.io/pjrpg-rules/02-regras-do-jogo/a%C3%A7%C3%B5es%2C%20combate%20e%20persegui%C3%A7%C3%B5es/">
+      
+      
+        <link rel="prev" href="../../01-cria%C3%A7%C3%A3o-de-personagens/05-conclusion/character-conclusion/">
+      
+      
+        <link rel="next" href="../descanso%20e%20recupera%C3%A7%C3%A3o/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Ações, combate e perseguições - Percy Jackson RPG - Regras 2.0</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#acoes-combate-e-perseguicoes" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Percy Jackson RPG - Regras 2.0" class="md-header__button md-logo" aria-label="Percy Jackson RPG - Regras 2.0" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Percy Jackson RPG - Regras 2.0
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Ações, combate e perseguições
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Percy Jackson RPG - Regras 2.0" class="md-nav__button md-logo" aria-label="Percy Jackson RPG - Regras 2.0" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Percy Jackson RPG - Regras 2.0
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    01 - Criação de personagens
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            01 - Criação de personagens
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/Introdu%C3%A7%C3%A3o%20%C3%A0%20cria%C3%A7%C3%A3o%20de%20personagens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introdução à criação de personagens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    O que você é?
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            O que você é?
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/powers-intro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Escolhendo o que ser
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2" id="__nav_2_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Poderes dos semideuses
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Poderes dos semideuses
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/afrodite/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Afrodite
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/apolo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apolo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/ares/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ares
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/athena/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Athena
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/demeter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Demeter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/dionisio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dionisio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/hades/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hades
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/hefesto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hefesto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/hermes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hermes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/poseidon/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Poseidon
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/thanatos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Thanatos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/01-demigods-powers/zeus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Zeus
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_3" id="__nav_2_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Poderes das criaturas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Poderes das criaturas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/02-creatures-powers/espiritos-da-agua/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Espiritos da agua
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/02-creatures-powers/minotauros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Minotauros
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/01-powers/02-creatures-powers/satiros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Satiros
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/02-attributes/attributes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atributos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/03-heroic-points/heroic-points/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pontos de heroísmo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Vantagens e desvantagens
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Vantagens e desvantagens
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/04-advantages-and-disavantages/01-intro-and/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introdução às vantagens e desvantagens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/04-advantages-and-disavantages/advantages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vantagens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/04-advantages-and-disavantages/disavantages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Desvantagens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/05-conclusion/character-conclusion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finalizando o personagem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    02 - Regras do Jogo
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            02 - Regras do Jogo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Ações, combate e perseguições
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Ações, combate e perseguições
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#posicionamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Posicionamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estados
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../descanso%20e%20recupera%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Descanso e recuperação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../evolu%C3%A7%C3%A3o%20dos%20personagens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Evolução dos personagens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fama%20e%20reconhecimento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fama e reconhecimento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../itens%20e%20peso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Itens e peso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../places/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bases e acampamentos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../proximidade%20divina/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proximidade divina
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    03 - Narrando
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            03 - Narrando
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-narrando/Introdu%C3%A7%C3%A3o%20%C3%A0%20narra%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introdução à narração
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-narrando/Jogando%20em%20diferentes%20cen%C3%A1rios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jogando em diferentes cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    04 - Bestiário
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            04 - Bestiário
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-bestiario/Introdu%C3%A7%C3%A3o%20ao%20Besti%C3%A1rio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introdução ao Bestiário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Criaturas Épicas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Criaturas Épicas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-bestiario/criaturas_epicas/gorgonas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gorgonas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-bestiario/criaturas_epicas/le%C3%A3o_de_nemeia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leão de nemeia
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-bestiario/criaturas_epicas/tiphon/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tiphon
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Sobre
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-sobre/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre este projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-sobre/rights/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Direitos de uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#posicionamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Posicionamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estados
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="acoes-combate-e-perseguicoes">Ações, combate e perseguições</h1>
+<p>Para saber a ordem do combate, todos fazem um d20 + Agilidade (e qualquer outro bônus que o personagem possa ter). A soma de todos os valores diz a ordem de ação, do maior para o menor.</p>
+<p>Na sua vez, um jogador pode executar duas ações da lista a seguir:</p>
+<ul>
+<li>Andar</li>
+<li>Atacar</li>
+<li>Foco</li>
+<li>Trocar de arma</li>
+<li>Usar item/habilidade/perícia</li>
+<li>Ficar em guarda</li>
+</ul>
+<p><strong>Andar:</strong> Seu personagem pode se mover o valor de sua Agilidade * 2 quadrados. Andar é a única ação que você pode fazer duas vezes. Exemplo: você tem 4 em agilidade, ou seja, só pode andar 8 quadrados. Se quiser, pode andar duas vezes, andará 16 quadrados, mas não fará mais nada nesse turno.</p>
+<ul>
+<li><strong>Terrenos Irregulares:</strong> em terrenos irregulares, como rios, pântanos, praias, montanhas, escadas, qualquer coisa não plana, os personagens podem se mover apenas metade dos quadrados.</li>
+</ul>
+<p><strong>Atacar:</strong> Você joga uma quantidade de d6 referente ao nível de perícia com a arma ou habilidade + bônus. Cada dado que cair com um valor de 3 para cima (4, 5 e 6), será considerado um sucesso. <strong>Caso o atacante consiga três resultados de 6, ele conseguiu um dano crítico. O dano é dobrado e o acerto inevitável. Se tirar três resultados de 1, ele conseguiu uma falha crítica e algo de ruim irá acontecer com ele.</strong></p>
+<ul>
+<li>
+<p><strong>Defesa:</strong> O oponente joga uma quantidade de d6 referente a agilidade + armadura + bônus. Se a quantidade de sucessos na defesa for igual ao do ataque, o ataque é evitado. Se a quantidade de sucessos da defesa for <strong>maior</strong> que a do ataque, o defensor recebe uma ação livre, podendo realizar qualquer uma atividade da lista de ações anterior.</p>
+</li>
+<li>
+<p><strong>Dano:</strong> O dano é a quantidade de sucessos no ataque menos a quantidade de sucessos na defesa, transformado em dados de dano na arma + bônus. De tal forma, Fulano tem 3 sucessos de ataque contra 1 sucesso de defesa de Ciclano, logo ele irá causar 2 dados de dano de sua arma + seus bônus.</p>
+</li>
+</ul>
+<p>Exemplo de um turno:</p>
+<ul>
+<li>Maria, filha de Ares, ataca uma Harpia com sua lança. Maria possuí 4 de Força, 2 de Perícia com lança e +1 de bônus por ser filha de Ares. Ela vai jogar 7 dados de 6 lados. Supondo que saia 6, 2, 6, 5, 1, 6, 3, podemos ver que ela teve 3 sucessos. </li>
+<li>A Harpia então tenta defender. A Harpia possui 3 de agilidade, não usa armadura e tem o bônus de 2 pela habilidade de voo. Ela joga 5 dados de 6 lados e tira 2, 3, 3, 6 e 5. Ou seja, ela teve 2 sucessos. </li>
+<li>Sendo 3 sucessos do ataque menos 2 sucessos da defesa equivalem a 1 dado de dano. Maria, então, jogará 1d12, que é o dano que sua lança causa. Ela tira 8 e esse dano é subtraído da vida total da Harpia. Em seguida, a Harpia ataca e o combate continua.</li>
+</ul>
+<p><strong>Foco:</strong> Seu personagem pode fazer uma ação de foco, ou seja, colocar um token de foco ao lado de sua figura, para posteriormente utilizá-la. Existem várias habilidades que defendem do foco, como por exemplo o Ataque Poderoso dos filhos de Ares, ou a Carregada dos Minotauros. Além disso, o foco pode ser utilizado para aumentar em um o valor no dado, ou seja, se possuir uma rolagem 3, pode alterá-la para 4. Existem habilidades que consideram um 3 um sucesso, portanto, poderia também transformar um 2 em um 3, assim por diante. Isso funciona com ataques, defesas e rolagens de perícias.</p>
+<p><strong>Ficar em guarda:</strong> ao ficar em guarda, o personagem rola seus dados de defesa. Na próxima rodada, se for atacado por um oponente, ele adiciona essa defesa ao seu novo resultado de defesa. Além disso, também evita ataques e habilidades que o peguem de surpresa.</p>
+<p><strong>Trocar uma arma:</strong> Seu personagem pode trocar a arma que está utilizando. Uma vez que um personagem está com um arco e flecha, leva tempo para que ele guarde esse item para puxar uma espada. Essa ação pode ser “burlada” se o personagem soltar a arma, sim, mas também corre o risco de perdê-la dependendo do cenário aonde estiver.</p>
+<p><strong>Usar item/habilidade:</strong> Seu personagem pode usar um item mágico, consumir alguma poção para aumentar sua vida ou alguma habilidade, etc.</p>
+<h2 id="posicionamento">Posicionamento</h2>
+<p><strong>De costas:</strong> se um personagem estiver de costas para outro e for atacado, o ataque terá 2 acertos garantidos.</p>
+<p><strong>Flanqueado:</strong> se um personagem estiver cercado por dois oponentes, de modo que os oponentes o estão flanqueando, os oponentes recebem 1 acerto garantido</p>
+<p><strong>Cobertura:</strong> se um personagem estiver atrás de algo para lhe fazer cobertura, ele recebe pelo menos 1 defesa garantida, a depender da situação.</p>
+<p><strong>Terreno irregular:</strong> quem está em um terreno irregular possui mais dificuldade para atacar ou defender, a depender do contexto.</p>
+<h2 id="estados">Estados</h2>
+<p><strong>Surpreso:</strong> quando um personagem é surpreso ele perde um turno de ação, dependendo do contexto.</p>
+<p><strong>Paralisado ou parcialmente paralisado:</strong> quando um personagem está paralisado de alguma forma, ele tem dificuldades de se defender, dependendo do contexto. Se o personagem está completamente paralisado, não pode rolar dados de defesa, apenas reduz o dano baseado em sua armadura (se fizer sentido). Caso esteja parcialmente paralisado, pode rolar defesa com -1 ou -2 dados a depender da situação (um braço paralisado, dois braços paralisados, etc).</p>
+<p><strong>Inconsciente:</strong> quando um de seus pontos vitais (Vida, Magia ou Estamina) chega a 0, você fica inconsciente pela exaustão. Além disso, o personagem adquire uma desvantagem referente ao modo que ele ficou inconsciente. Se perdeu muita vida, pode acabar perdendo um membro, se usou muita energia, pode ter quebrado um braço ou machucado uma perna, se perdeu toda a magia pode ficar limitado, esquecer coisas, etc.</p>
+<p><strong>Morte:</strong> quando os Pontos de Vida do seu personagem chegam a -10, o personagem está morto. Mortinho da Silva.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../../01-cria%C3%A7%C3%A3o-de-personagens/05-conclusion/character-conclusion/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Finalizando o personagem">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Finalizando o personagem
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../descanso%20e%20recupera%C3%A7%C3%A3o/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Descanso e recuperação">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Descanso e recuperação
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+        <script src="../../js/powersRandomizer.js"></script>
+      
+        <script src="../../js/breadcrumbs.js"></script>
+      
+    
+  </body>
+</html>

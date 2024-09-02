@@ -1,0 +1,30 @@
+.randomize-powers-button {
+  background-color: whitesmoke;
+  padding: 1rem;
+  border: 1px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s;
+}
+
+.randomize-powers-button:hover {
+  background-color: rgba(245, 245, 245, 0.286);
+}
+
+.randomize-powers-button:active {
+  transform: scale(0.9);
+}
+
+.breadcrumbs {
+  padding: 10px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.breadcrumbs span {
+  color: #6c757d;
+}
