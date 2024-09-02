@@ -1,10 +1,17 @@
 site_name: Percy Jackson RPG - Regras 2.0
 site_url: https://gabrielgomeso.github.io/pjrpg-rules/
-theme:
-  name: material
 plugins:
     - awesome-pages:
         collapse_single_pages: true
     - search
-
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.footer
+extra_javascript:
+  - js/powersRandomizer.js
+  - js/breadcrumbs.js
+extra_css:
+  - css/styles.css
  

@@ -1,6 +1,8 @@
 # Atributos
 
-Ao criar o personagem, o jogador distribui 9 pontos de atributos em cada um dos seguintes atributos:
+Os atributos são o que definem as características físicas e mentais do seu personagem. Quanto mais alto o atributo, melhor ele será naquela área.
+
+Todos já começam com 1 ponto inicial e ao criar o personagem, o jogador distribui 9 pontos de atributos em cada um deles:
 
 **Força**: a base para seus ataques e influencia na quantidade de itens que você pode carregar. Influencia em seus pontos de energia.
 
@@ -13,8 +15,6 @@ Ao criar o personagem, o jogador distribui 9 pontos de atributos em cada um dos 
 **Constituição:** sua vitalidade, influencia na sua resistência física e seus pontos de vida.
 
 **Carisma:** sua atratividade, seu molejo. Influencia em como os outros o veem e em seus pontos de heroísmo.
-
-Todos já começam com 1 ponto inicial e a cada três níveis o jogador ganha um novo ponto para distribuir.
 
 ### Testes de atributos
 Durante o jogo os personagens enfrentarão diversos desafios e obstáculos. Às vezes, é preciso escalar uma parede rochosa, enganar um vendedor, derrubar uma porta ou decifrar um texto antigo. Sempre que alguma atividade ultrapassar o senso comum e se mostrar desafiadora, os personagens terão que realizar um teste de atributo, testando o atributo mais próximo da atividade que ele quer fazer. Não só o narrador pode solicitar um teste em determinado momento, mas os jogadores também podem perguntar se podem tentar fazer alguma manobra diferente.
